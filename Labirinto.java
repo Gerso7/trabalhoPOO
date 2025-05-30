@@ -170,7 +170,6 @@ public class Labirinto extends JFrame {
         rudigerSkin = redimensionarImagem("C:/Users/ferra/Downloads/LabirintoPOO/ijdulbl2k9xe1.jpeg");
         sociologoSkin = redimensionarImagem("C:/Users/ferra/Downloads/LabirintoPOO/FoEWd1-XwAANPEm.jpg");
         batmanSkin = redimensionarImagem("C:/Users/ferra/Downloads/LabirintoPOO/download.jpg");
-        mrpotatoSkin = redimensionarImagem("C:\Users\aluno\Downloads\Image.png");
 
         menuPanel = new JPanel();
         menuPanel.setLayout(new GridLayout(5, 1, 10, 10));
@@ -336,7 +335,6 @@ public class Labirinto extends JFrame {
                         case "rudiger" -> g2.drawImage(rudigerSkin, j * TILE_SIZE, i * TILE_SIZE + 40, TILE_SIZE, TILE_SIZE, null);
                         case "sociologo" -> g2.drawImage(sociologoSkin, j * TILE_SIZE, i * TILE_SIZE + 40, TILE_SIZE, TILE_SIZE, null);
                         case "batman" -> g2.drawImage(batmanSkin, j * TILE_SIZE, i * TILE_SIZE + 40, TILE_SIZE, TILE_SIZE, null);
-                        case "mrPotato" -> g2.drawImage(mrpotatoSkin, j * TILE_SIZE, i * TILE_SIZE + 40, TILE_SIZE, TILE_SIZE, null);
                         default -> {
                             g2.setColor(new Color(30, 180, 80));
                             g2.fillOval(j * TILE_SIZE + 10, i * TILE_SIZE + 50, TILE_SIZE - 20, TILE_SIZE - 20);
