@@ -1,4 +1,4 @@
-/**
+/**Add commentMore actions
  * Labirinto de Mistérios.
  * 
  * Classes:
